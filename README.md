@@ -1,2 +1,1 @@
-# MERN
-# MERN
+# This is my app
