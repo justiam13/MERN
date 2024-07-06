@@ -1,1 +1,1 @@
-# This is my app# MERN
+# This is a react app
