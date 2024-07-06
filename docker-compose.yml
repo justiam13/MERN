@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./servers
+    container_name: server 
+    ports:
+      - "3001:3001"
+    environment: 
+      - mongodb+srv://Gayatri:setky0-sigvoM-kurcen@cluster0.zpdeidm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+  client:
+    build: ./clients
+    container_name: client
+    ports :
+    - "3000:80"
